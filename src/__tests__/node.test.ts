@@ -76,11 +76,11 @@ describe('node', () => {
       expect(getFilesProducedFromSuccessMessags(successMsgs)).toMatchInlineSnapshot(`
         [
           ".editorconfig",
+          ".eslintignore",
           ".eslintrc",
           ".gitignore",
           ".prettierignore",
           ".prettierrc",
-          "eslint.config.js",
           "package.json",
           "src/index.ts",
           "tsconfig.build.json",
@@ -138,11 +138,11 @@ describe('node', () => {
       expect(getFilesProducedFromSuccessMessags(successMsgs)).toMatchInlineSnapshot(`
         [
           ".editorconfig",
+          ".eslintignore",
           ".eslintrc",
           ".gitignore",
           ".prettierignore",
           ".prettierrc",
-          "eslint.config.js",
           "package.json",
           "src/index.js",
         ]
