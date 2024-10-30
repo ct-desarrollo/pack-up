@@ -33,15 +33,12 @@ const tsconfigBuildFile: TemplateFile = {
   name: 'tsconfig.build.json',
   contents: outdent`
       {
-        "extends": "./tsconfig",
-        "include": ["./src"],
+        "extends": "./tsconfig.json",
         "compilerOptions": {
-          "rootDir": ".",
           "outDir": "./dist",
-          "emitDeclarationOnly": true,
-          "noEmit": false,
-          "resolveJsonModule": true
         }
+        "include": ["src"],
+        "exclude": ["**/*.test.tsx", "**/*.test.ts", "**/__tests__/**/*"],
       }
     `,
 };
@@ -50,7 +47,7 @@ const tsconfigEslintFile: TemplateFile = {
   name: 'tsconfig.eslint.json',
   contents: outdent`
       {
-        "extends": "./tsconfig",
+        "extends": "./tsconfig.json",
         "include": ["src", "*.ts", "*.js"],
       }
     `,

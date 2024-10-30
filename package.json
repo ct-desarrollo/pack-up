@@ -1,6 +1,6 @@
 {
   "name": "@ctdesarrollo/pack-up",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple tools for creating interoperable CJS & ESM packages.",
   "keywords": [
     "package",
@@ -73,7 +73,6 @@
     "git-url-parse": "13.1.1",
     "ini": "4.1.2",
     "ora": "5.4.1",
-    "outdent": "0.8.0",
     "pkg-up": "3.1.0",
     "prettier": "3.3.3",
     "prettier-plugin-packagejson": "2.5.2",
@@ -81,7 +80,8 @@
     "rxjs": "7.8.1",
     "typescript": "5.4.4",
     "vite": "5.4.8",
-    "yup": "0.32.9"
+    "yup": "0.32.9",
+    "outdent": "0.8.0"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.2.0",
@@ -89,7 +89,7 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@commitlint/types": "^19.5.0",
-    "@ctdesarrollo/eslint-config": "^1.0.0",
+    "@ctdesarrollo/eslint-config": "^1.0.1",
     "@ctdesarrollo/pack-up": "workspace:*",
     "@swc/core": "^1.4.13",
     "@swc/jest": "^0.2.36",
