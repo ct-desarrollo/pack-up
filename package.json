@@ -1,6 +1,6 @@
 {
   "name": "@ctdesarrollo/pack-up",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple tools for creating interoperable CJS & ESM packages.",
   "keywords": [
     "package",
@@ -89,7 +89,7 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@commitlint/types": "^19.5.0",
-    "@ctdesarrollo/eslint-config": "^1.0.1",
+    "@ctdesarrollo/eslint-config": "^1.0.2",
     "@ctdesarrollo/pack-up": "workspace:*",
     "@swc/core": "^1.7.40",
     "@swc/jest": "^0.2.36",
@@ -106,7 +106,7 @@
     "jest": "^29.7.0",
     "lint-staged": "^15.2.10"
   },
-  "packageManager": "pnpm@9.1.0",
+  "packageManager": "pnpm@9.12.3",
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
